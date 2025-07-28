@@ -51,18 +51,6 @@ The dataset includes the following key features:
 
 ---
 
-## 📈 Sample Output
-
-### 🔮 Price Forecast Plot
-
-![forecast-plot](your-image-url-here)
-
-### 📉 Trend & Seasonality Components
-
-![components-plot](your-image-url-here)
-
----
-
 ## 🧠 Insights
 
 - Prophet successfully identifies **trends** and **seasonal cycles** in avocado pricing.
