@@ -1,33 +1,65 @@
-🥑 Avocado Time Series Forecasting (TSF)
-This project focuses on analyzing and forecasting avocado prices (or sales) over time using time series analysis techniques and machine learning models. The goal is to build an accurate and interpretable model to predict future values based on historical avocado data.
+🥑 Avocado Price Forecasting with Prophet
+📌 Overview
+This project utilizes the Facebook Prophet library to perform time series forecasting on avocado prices in the United States. Using historical data, we analyze trends, seasonality, and predict average prices for the next 365 days.
 
 📊 Dataset
-The dataset used contains historical avocado sales and pricing data, including:
+The dataset includes the following key features:
 
-Date of sale
+Date: The date of the record
+AveragePrice: The average price of avocados on that date
+year: Extracted from the date for visual analysis
+Note: The dataset is preprocessed and sorted by date before applying the model.
 
-Region
+⚙️ Libraries Used
+pandas
+numpy
+matplotlib
+seaborn
+prophet (formerly fbprophet)
+🚀 Forecasting Process
+Data Preprocessing
 
-Average price
+Sort dataset by date
+Rename columns for Prophet compatibility (ds, y)
+Exploratory Data Analysis
 
-Type (organic/conventional)
+Line plot of price over time
+Count plot of records per year
+Modeling
 
-Total volume sold
+Train Prophet model on historical data
+Generate future dataframe (365 days ahead)
+Predict future prices
+Visualize predictions and Prophet components (trend, seasonality)
+📈 Sample Output
+Price Forecast Plot
+Forecast
 
-Example source:https://www.kaggle.com/datasets/neuromusic/avocado-prices
+Trend & Seasonality Components
+Components
 
-🧪 Features
-📈 Exploratory Data Analysis (EDA): Identify seasonality, trends, and outliers in avocado price and sales data.
+🧠 Insights
+Prophet successfully identifies trends and seasonal cycles in avocado pricing.
+This type of analysis can help retailers, wholesalers, and economists plan better for future market conditions.
+About
+This project focuses on forecasting avocado prices using the Facebook Prophet time series model. The dataset contains historical average prices of avocados in the United States. By preprocessing the data and applying Prophet, we can visualize trends, seasonal effects, and make future price predictions for a one-year period.
 
-🤖 Forecasting Models:
-
-ARIMA
-
-Facebook Prophet
-
-LSTM (optional, deep learning)
-
-📉 Performance Metrics: RMSE, MAE, MAPE
-
-📦 Modular and clean code structure for reusability
-
+Resources
+ Readme
+ Activity
+Stars
+ 0 stars
+Watchers
+ 0 watching
+Forks
+ 0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Languages
+Jupyter Notebook
+100.0%
+Footer
+© 20
