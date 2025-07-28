@@ -1,10 +1,10 @@
-🥑 Avocado Price Forecasting with Prophet
+*🥑 Avocado Price Forecasting with Prophet
 
-📌 Overview
+*📌 Overview
 
 This project utilizes the Facebook Prophet library to perform time series forecasting on avocado prices in the United States. Using historical data, we analyze trends, seasonality, and predict average prices for the next 365 days.
 
-📊 Dataset
+**📊 Dataset
 The dataset includes the following key features:
 
 Date: The date of the record
